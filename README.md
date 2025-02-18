@@ -17,8 +17,8 @@ The data is collected and displayed in **Grafana** to visualize through graphs. 
 
 ## Tech Stack
 
-- **Backend**: Spring Boot
-- **Frontend**: React
+- **Backend**: Java, Spring Boot
+- **Frontend**: JavaScript, React
 - **Monitoring Tools**: Prometheus, Grafana
 
 ## Screenshots
