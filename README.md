@@ -4,7 +4,7 @@
 
 This project tracks when users click **Enroll Now** and **Pay Now** buttons on the frontend. It helps understand how many people show interest in a course by enrolling but do not complete the payment.
 
-The data is collected and displayed in **Grafana** to visualize those grpahs. This can help businesses to see how many users actually go from showing interest to making a payment. It also provides insights into the **drop rate**, helping businesses understand how many users abandon the process before completing the payment. This can be used in any application that involves a payment process to analyze user behavior and improve the checkout process.
+The data is collected and displayed in **Grafana** to visualize through graphs. This can help businesses to see how many users actually go from showing interest to making a payment. It also provides insights into the **drop rate**, helping businesses understand how many users abandon the process before completing the payment. This can be used in any application that involves a payment process to analyze user behavior and improve the checkout process.
 
 ## Features
 
