@@ -1,4 +1,4 @@
-# Event Tracking with Prometheus and Grafana
+# Event Tracking
 
 ## Overview
 
