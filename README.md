@@ -71,7 +71,7 @@ The data is collected and displayed in **Grafana** to visualize through graphs. 
 - Grafana displays a dashboard to compare enrollments vs. payments.
 - The drop rate is calculated as:
   ```sh
-  Drop Rate (%) = ((Enroll Count - Pay Count) / Enroll Count) * 100
+  Drop Rate (%) = (100 - (sum(user_events_total{event="pay"}) / sum(user_events_total{event="enroll"}))) * 100
   ```
 - This helps in analyzing how many users drop off before making a payment.
 
