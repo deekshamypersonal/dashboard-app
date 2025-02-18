@@ -21,6 +21,14 @@ The data is collected and displayed in **Grafana** to visualize through graphs. 
 - **Frontend**: React
 - **Monitoring Tools**: Prometheus, Grafana
 
+Screenshots
+
+Frontend
+
+
+
+Grafana Dashboard
+
 ## Setup Instructions
 
 ### Backend (Spring Boot Application)
