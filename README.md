@@ -28,11 +28,11 @@ The data is collected and displayed in **Grafana** to visualize through graphs. 
 <img width="476" alt="image" src="https://github.com/user-attachments/assets/c6e3d32e-5dee-4642-b45d-7706bf50a89c" />
 <img width="389" alt="image" src="https://github.com/user-attachments/assets/c642c846-42f9-43b6-8f40-426ed487f30f" />
 
-
-
-
-
 ### Grafana Dashboard
+<img width="441" alt="image" src="https://github.com/user-attachments/assets/109c5499-f283-4a64-ba18-e30f82b6d7f4" /> Enroll and Payment Events
+<img width="407" alt="image" src="https://github.com/user-attachments/assets/0562c2b2-5cde-4120-a854-cd6aa7038ade" /> Drop Rate Graph
+
+
 
 ## Setup Instructions
 
