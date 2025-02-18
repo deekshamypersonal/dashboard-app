@@ -25,7 +25,8 @@ The data is collected and displayed in **Grafana** to visualize through graphs. 
 
 ### Frontend
 
-<img width="476" alt="image" src="https://github.com/user-attachments/assets/c6e3d32e-5dee-4642-b45d-7706bf50a89c" /><img width="389" alt="image" src="https://github.com/user-attachments/assets/c642c846-42f9-43b6-8f40-426ed487f30f" />
+<img width="476" alt="image" src="https://github.com/user-attachments/assets/c6e3d32e-5dee-4642-b45d-7706bf50a89c" />
+<img width="389" alt="image" src="https://github.com/user-attachments/assets/c642c846-42f9-43b6-8f40-426ed487f30f" />
 
 
 
