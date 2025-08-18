@@ -1,4 +1,4 @@
-# Event Tracking
+# Analytics Dashboard
 
 ## Overview
 
