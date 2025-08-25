@@ -1,6 +1,6 @@
 # Analytics Dashboard
 
-## 📚 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
