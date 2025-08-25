@@ -13,7 +13,7 @@
 
 ## Overview
 
-This project counts two actions in your app: when someone clicks **Enroll Now** and when they click **Pay Now**, and then shows both in Grafana through graph. With these charts you can check, 
+This project counts two actions in the app: when someone clicks **Enroll Now** and when they click **Pay Now**, and then shows both in Grafana through graph. With these charts we can check, 
 for any time range, how many people started vs. how many finished payment 
 and what percent dropped off. 
 
