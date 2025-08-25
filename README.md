@@ -17,7 +17,7 @@ This project counts two actions in the app: when someone clicks **Enroll Now** a
 for any time range, how many people started vs. how many finished payment 
 and what percent dropped off. 
 
-It also provides insights into the **drop rate**, helping businesses understand how many users abandon the process before completing the payment. This can be used in any application that involves a payment process to analyze user behavior and improve the checkout process.
+It provides insights into the **drop rate**, helping businesses understand how many users abandon the process before completing the payment. This can be used in any application that involves a payment process to analyze user behavior and improve the checkout process.
 
 ## Features
 
