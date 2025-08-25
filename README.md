@@ -1,6 +1,6 @@
 # Analytics Dashboard
 
-## Table of Contents
+## 📚 Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -56,3 +56,62 @@ Drop Rate Graph
 2. Install dependencies and run the Spring Boot application:
    ```sh
    mvn spring-boot:run
+   ```
+3. The application will start on `http://localhost:8080`.
+
+### Frontend (React Application)
+
+1. Navigate to the frontend folder and install dependencies:
+   ```sh
+   npm install
+   ```
+2. Start the frontend application:
+   ```sh
+   npm start
+   ```
+3. The frontend will be available at `http://localhost:5173`.
+
+### Prometheus Setup
+
+1. Install Prometheus locally.
+2. Start Prometheus:
+   ```sh
+   ./prometheus --config.file=prometheus.yml
+   ```
+4. Open `http://localhost:9090` to access Prometheus.
+
+### Grafana Setup
+
+1. Install Grafana.
+2. Start Grafana:
+   ```sh
+   ./grafana-server
+   ```
+3. Open `http://localhost:3000` and log in with `admin/admin`.
+4. Add Prometheus as a data source (`http://localhost:9090`).
+5. Create dashboards to visualize enrollment and payment metrics.
+
+## How It Works
+
+- When a user clicks **Enroll Now**, a metric is recorded.
+- If they proceed to payment, another metric is recorded.
+- Grafana displays a dashboard to compare enrollments vs. payments.
+- The drop rate is calculated as:
+  ```sh
+  Drop Rate (%) = (100 - (sum(user_events_total{event="pay"}) / sum(user_events_total{event="enroll"}))) * 100
+  ```
+- This helps in analyzing how many users drop off before making a payment.
+
+## API Endpoints
+
+- `GET /producer/enroll` → Records an enroll event.
+- `GET /producer/pay` → Records a payment event.
+
+## Future Enhancements
+
+- Integrate with Kafka to produce events.
+
+
+## Conclusion
+
+This project provides a simple way to track user engagement in the enrollment and payment process. By using **Prometheus** and **Grafana**, businesses can easily visualize trends, measure **drop rates**, and find ways to improve conversion rates.
